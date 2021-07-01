@@ -124,6 +124,7 @@ class _ClockDifferenceState extends State<ClockDifference> with TickerProviderSt
     //Showing Alert
     showDialog(
         context: context,
+        barrierDismissible: false,
         builder: (BuildContext context){
           return alert;
         }

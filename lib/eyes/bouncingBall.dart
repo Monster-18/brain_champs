@@ -76,6 +76,7 @@ class _BouncingBallState extends State<BouncingBall> with TickerProviderStateMix
     //Showing Alert
     showDialog(
         context: context,
+        barrierDismissible: false,
         builder: (BuildContext context){
           return alert;
         }

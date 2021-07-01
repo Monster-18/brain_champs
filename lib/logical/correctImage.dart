@@ -98,6 +98,7 @@ class _CorrectImageState extends State<CorrectImage> {
 
     showDialog(
       context: context,
+      barrierDismissible: false,
       builder: (context){
         return alert;
       }

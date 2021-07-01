@@ -192,6 +192,7 @@ class _ColorSequenceState extends State<ColorSequence> with SingleTickerProvider
     //Showing Alert
     showDialog(
         context: context,
+        barrierDismissible: false,
         builder: (BuildContext context){
           return alert;
         }

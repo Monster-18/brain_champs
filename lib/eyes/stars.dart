@@ -64,6 +64,7 @@ class _StarsState extends State<Stars> with SingleTickerProviderStateMixin{
     //Showing Alert
     showDialog(
         context: context,
+        barrierDismissible: false,
         builder: (BuildContext context){
           return alert;
         }

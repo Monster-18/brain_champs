@@ -73,6 +73,7 @@ class _AliensState extends State<Aliens> with SingleTickerProviderStateMixin{
     //Showing Alert
     showDialog(
         context: context,
+        barrierDismissible: false,
         builder: (BuildContext context){
           return alert;
         }

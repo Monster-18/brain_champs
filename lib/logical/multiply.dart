@@ -60,6 +60,7 @@ class _MultiplyState extends State<Multiply> {
     //Showing Alert
     showDialog(
         context: context,
+        barrierDismissible: false,
         builder: (BuildContext context){
           return alert;
         }

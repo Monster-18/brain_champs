@@ -91,6 +91,7 @@ class _MatchPairsState extends State<MatchPairs> {
     //Showing Alert
     showDialog(
         context: context,
+        barrierDismissible: false,
         builder: (BuildContext context){
           return alert;
         }
